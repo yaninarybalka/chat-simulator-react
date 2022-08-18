@@ -1,0 +1,41 @@
+.wrap {
+  display: flex;
+}
+
+.left-part {
+  flex: 1 200px;
+  border: 1px solid black;
+}
+
+.right-part {
+  flex: 2 200px;
+  border: 1px solid black;
+  padding-left: 45px;
+}
+
+.search-header {
+  border: 1px solid black;
+  padding: 12px 15px 20px;
+}
+
+.search-header img {
+  padding-bottom: 27px;
+}
+
+.search-header input {
+  padding: 14px 5px;
+  width: 95%;
+  border-radius: 20px;
+}
+
+.list-of-contacts {
+  border: 1px solid black;
+  padding: 10px 50px 50px;
+}
+.contact-description {
+  border: 1px solid black;
+}
+
+.user-img {
+  border-radius: 50%;
+}
