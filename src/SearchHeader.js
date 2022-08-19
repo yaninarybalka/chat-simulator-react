@@ -10,7 +10,11 @@ export default function SearchHeader() {
         width="50"
       ></img>
       <form>
-        <input type="text" value={"🔎 Search or start new chat"}></input>
+        <input
+          className="search-bar"
+          type="text"
+          value={"🔍 Search or start new chat"}
+        ></input>
       </form>
     </div>
   );
